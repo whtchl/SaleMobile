@@ -1,0 +1,19 @@
+<cn.bingoogolapple.refreshlayout.salemobile.activitypulllist.PullToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/refresh_head" />
+    <!-- 支持所有实现Pullable接口的View -->
+
+    <cn.bingoogolapple.refreshlayout.salemobile.activitypulllist.PullableListView
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:divider="@color/grey_0"
+        android:dividerHeight="1dp" />
+
+    <include layout="@layout/load_more" />
+
+</cn.bingoogolapple.refreshlayout.salemobile.activitypulllist.PullToRefreshLayout>

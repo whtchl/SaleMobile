@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<!--        <item
+            android:id="@+id/navigation_main_gridview"
+            android:checked="true"
+            android:title="@string/gridview_demo"
+            android:visibility="gone"/>-->
+
+        <!--   <item
+               android:id="@+id/navigation_main_normalrecyclerview"
+               android:title="@string/storage"
+               android:visibility="gone"/>
+           <item
+               android:id="@+id/navigation_main_swipelistview"
+               android:title="@string/swipe_listview_demo" />-->
+        <item
+            android:id="@+id/navigation_main_swiperecyclerview"
+            android:title="@string/shipment" />
+        <item
+            android:id="@+id/navigation_main_normallistview"
+            android:title="@string/storage" />
+
+
+<!--        <item
+            android:id="@+id/navigation_main_scan"
+            android:title="@string/scan_code" />-->
+<!--        <item
+            android:id="@+id/navigation_main_gridview"
+            android:checked="true"
+            android:title="@string/user_settings"
+            android:visibility="gone"/>-->
+        <!--       <item
+            android:id="@+id/user_settings"
+            android:title="@string/user_settings"/>-->
+<!--      <item
+            android:id="@+id/navigation_main_staggeredgridlayoutmanager"
+            android:title="@string/staggeredgrid_demo" />-->
+        <item android:id="@+id/navigation_main_settings"
+             android:title="@string/user_settings"/>
+        <!--          <item
+                    android:id="@+id/navigation_main_scrollview"
+                    android:title="@string/scrollview_demo" />
+                <item
+                    android:id="@+id/navigation_main_normalview"
+                    android:title="@string/normalview_demo" />
+
+                <item
+                    android:id="@+id/navigation_main_webview"
+                    android:title="@string/webview_demo" />-->
+    </group>
+</menu>

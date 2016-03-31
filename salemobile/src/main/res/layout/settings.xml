@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!-- Login progress -->
+<!--    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />-->
+
+<!--    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="right" />-->
+
+    <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            >
+        <!--android:color="#BDC7D8"-->
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/bg_edittext_normal"
+                    android:ems="10"
+                    android:padding="15dip"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="10dp"
+                    android:id="@+id/edit_name" />
+      　　　　   <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:inputType="phone"
+
+                   android:background="@drawable/bg_edittext_normal"
+                   android:padding="15dip"
+
+                   android:textColorHint="#AAAAAA"
+                   android:textSize="15dip"
+                   android:singleLine="true"
+                   android:hint="请输入..."
+                   android:layout_margin="10dp"
+                   android:id="@+id/edit_phone"
+                   android:textColor="@android:color/black"
+                />
+
+                    <Button
+                      android:id="@+id/btn_recover"
+                      style="?android:textAppearanceSmall"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/grey_0"
+                      android:layout_marginTop="2dp"
+                      android:background="@drawable/login_btn"
+                      android:text="@string/action_save"
+                      android:layout_margin="10dp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
